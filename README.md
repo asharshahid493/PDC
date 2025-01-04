@@ -81,4 +81,4 @@ To run the examples:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/python-parallel-examples.git
+   git clone https://github.com/asharshahid493/PDC.git
