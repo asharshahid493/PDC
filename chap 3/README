@@ -1,38 +1,38 @@
-COMMUNICATING_WITH_PIPE.PY
+*COMMUNICATING_WITH_PIPE.PY*
 This code demonstrates interprocess communication using Pipe from the multiprocessing module. It shows how data can be sent and received between two processes through a pipe, allowing for efficient and direct data sharing.
 
-COMMUNICATING_WITH_QUEUE.PY
+*COMMUNICATING_WITH_QUEUE.PY*
 This code showcases interprocess communication using Queue from the multiprocessing module. A shared queue is used to exchange data between multiple producer and consumer processes in a thread-safe manner.
 
-DEROM.PY
+*DEROM.PY*
 This code focuses on a specialized functionality related to multiprocessing or threading. It likely involves specific use cases, such as demonstrating task delegation or resource management, depending on its context.
 
-KILLING_PROCESSES.PY
+*KILLING_PROCESSES.PY*
 This code demonstrates how to manage and terminate processes in Python. It shows how processes can be started, checked for status, and terminated programmatically using the multiprocessing module.
 
-MYFUNC.PY
+*MYFUNC.PY*
 This code defines and demonstrates the execution of a simple function using multiprocessing or threading. It showcases how multiple threads or processes can independently execute the defined function.
 
-NAMING_PROCESSES.PY
+*NAMING_PROCESSES.PY*
 This code demonstrates how to assign custom names to processes using the multiprocessing module. It shows the benefits of naming processes for better debugging and monitoring.
 
-PROCESS_IN_SUBCLASS.PY
+*PROCESS_IN_SUBCLASS.PY*
 This code demonstrates how to define a custom process class by subclassing Process from the multiprocessing module. It includes overriding the run method to specify custom behavior for the process.
 
-PROCESS_POOL.PY
+*PROCESS_POOL.PY*
 This code demonstrates the use of Pool from the multiprocessing module to manage a pool of worker processes. It shows how tasks can be distributed among multiple workers for parallel execution, making it ideal for tasks like map-reduce operations.
 
-PROCESSES_BARRIER.PY
+*PROCESSES_BARRIER.PY*
 This code uses the Barrier synchronization primitive to demonstrate how multiple processes can synchronize at a specific point in their execution before continuing further.
 
-RUN_BACKGROUND_PROCESSES.PY
+*RUN_BACKGROUND_PROCESSES.PY*
 This code demonstrates how to run processes in the background. It shows how processes can be started and detached from the main execution flow to perform tasks independently.
 
-RUN_BACKGROUND_PROCESSES_NO_DAEMONS.PY
+*RUN_BACKGROUND_PROCESSES_NO_DAEMONS.PY*
 This code demonstrates how to run non-daemon background processes. Unlike daemon processes, these processes are not terminated abruptly when the main program exits, ensuring graceful execution.
 
-SPAWNING_PROCESSES.PY
+*SPAWNING_PROCESSES.PY*
 This code demonstrates how to spawn new processes using the multiprocessing module. It highlights the basic functionality of creating, starting, and managing child processes.
 
-SPAWNING_PROCESSES_NAMESPACE.PY
+*SPAWNING_PROCESSES_NAMESPACE.PY*
 This code extends process spawning to include shared namespaces. It demonstrates how multiple processes can share data using a common namespace, facilitating interprocess collaboration.
