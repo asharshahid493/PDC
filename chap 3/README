@@ -1,7 +1,6 @@
-# **COMMUNICATING_WITH_PIPE.PY**
+ **COMMUNICATING_WITH_PIPE.PY**
 This code demonstrates interprocess communication using Pipe from the multiprocessing module. It shows how data can be sent and received between two processes through a pipe, allowing for efficient and direct data sharing.
 
----
 
 # **COMMUNICATING_WITH_QUEUE.PY**
 This code showcases interprocess communication using Queue from the multiprocessing module. A shared queue is used to exchange data between multiple producer and consumer processes in a thread-safe manner.
